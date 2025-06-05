@@ -1,5 +1,40 @@
-# Prerequisites
-*.d
+# Build directories
+build/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Qt specific
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+.qmake.cache
+.qmake.stash
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+Makefile*
+*build-*
+*.qm
+*.prl
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # Compiled Object files
 *.slo
@@ -16,10 +51,6 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
 *.lai
 *.la
@@ -30,3 +61,18 @@
 *.exe
 *.out
 *.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
